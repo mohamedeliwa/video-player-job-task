@@ -12,7 +12,7 @@ const Controllers = (props: {id: number}) => {
         </button>
       </li>
       <li className="progress">
-        <progress id={`progress${props.id}`} value="0" min="10">
+        <progress id={`progress${props.id}`} value="0" data-min="0">
           <span id={`progress-bar${props.id}`}></span>
         </progress>
       </li>
