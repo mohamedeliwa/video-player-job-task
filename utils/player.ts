@@ -18,7 +18,7 @@ export const setFullscreenData = function (
   state: boolean,
   videoContainer: HTMLElement
 ) {
-  videoContainer.setAttribute("data-fullscreen", !!state);
+  videoContainer.setAttribute("data-fullscreen", `${!!state}`);
 };
 
 export const handleFullscreen = function (videoContainer: HTMLElement) {
